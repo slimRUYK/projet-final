@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;   
+   }
+.header{
+    display:flex;
+    align-content: center;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    background-color: #110404;
+    padding: 1%;
+    }
+.section1{
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: 900;
+    margin-top: 15px;
+    color: rgb(216, 234, 252);
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul li {
+    display: inline-block;
+    margin-top: 30px;
+}
+.section2{
+    float: right;
+    list-style-type: none;
+    margin-top: 40px;
+}
+ul li a{
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+}
+a:hover{
+    color: #069bff;
+    text-decoration: #06cdff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+   background-image: url(../img/wallpaperflare.com_wallpaper\ \(10\).jpg);
+}
+.container{
+    margin: auto;
+    margin-top: 20px;
+
+
+}
+.col-md-, .col-lg-4{
+    margin-bottom: 20px;
+}
+.sty{
+    font-size: 18px !important;
+    color: rgb(15, 132, 201) !important;
+}
+.num{
+    width: 80px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+}
+.uk-border-circle{
+    width: 100px !important;
+    height: 100px !important;
+}
+.fa-cart-arrow-down{
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    padding-left: 20px;
+}
+.navbar{
+    background-color:rgba(128, 128, 128, 0.575);
+
+}
+.home{
+    text-decoration: none;
+    font-size: 50pt;
+    color: rgb(0, 0, 0);
+  } 
+    
+  .btn{
+      background-color: blueviolet;
+
+  }
+  
+  @media(max-width :768px) {
+      .col-md-4{
+          width: 50%;
+      }  
+    }
